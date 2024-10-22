@@ -1,0 +1,32 @@
+header{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 90px 120px 20px 20px;
+    position: relative;
+}
+nav{
+    grid-column: 2/12;
+    grid-row-start: 1;
+}
+.mensagem-principal{
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+.imagem-principal{
+    grid-row-start: 2;
+    grid-column-start: 8;
+    grid-column-end: 12;
+ 
+}
+.div-arredondado {
+    position: absolute;
+    background-color: #da582f;
+    width: 450px;
+    height: 450px;
+    right: 0;
+    top: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    z-index: -1;
+}

@@ -1,0 +1,8 @@
+@import "./core/variaveis.css";
+@import "./core/reset.css";
+@import "./layout/nav.css";
+@import "./layout/links.css";
+@import "./core/typography.css";
+@import "./button.css";
+@import "./layout/header.css";
+@import "./module/cards.css";

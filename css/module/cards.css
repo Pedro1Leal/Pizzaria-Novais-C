@@ -1,0 +1,28 @@
+.card{
+    margin-left: 36px;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    padding: 32px;
+}
+.cardverdementa {
+    background-color: #e0fcc2;
+}
+.cardrosapastel {
+    background-color: #fce1ee;
+}
+.cardpessego {
+    background-color: #fce5cd;
+}
+.image-pizza {
+width: 180px;
+height: 180px;
+}
+.cards {
+    margin-top: 350px;
+    display: flex;
+    margin-left: 100px;
+}
